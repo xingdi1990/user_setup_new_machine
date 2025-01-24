@@ -43,4 +43,6 @@ sudo chmod 700 /home/$username/.ssh
 
 sudo chmod 600 /home/$username/.ssh/authorized_keys
 
+sudo chown -R $username:$username /home/$username/.ssh
+
 echo "User '$username' setup authorized. Now login with your new user account!"
