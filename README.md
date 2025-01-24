@@ -9,9 +9,11 @@
   ```
   wget https://raw.githubusercontent.com/xingdi1990/user_setup_new_machine/refs/heads/main/setup_user_with_ephemeral.sh
   chmod +x setup_user_with_ephemeral.sh
-  ./setup_user_with_ephemeral.sh
   ```
-* Follow the instruction on screen for finishing setting up your new account $username
+* Follow the instruction on screen for finishing setting up your new account $username.
+  ```
+   ./setup_user_with_ephemeral.sh
+  ```
 * relogin with your new account
   ```
   ssh -i id_rsa_hyperstack $username@xx.xxx.xxx.xxx 
