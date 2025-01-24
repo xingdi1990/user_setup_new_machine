@@ -35,6 +35,8 @@ echo "'$username' has sudo privileges."
 
 # to login with new user, you need to copy the authorized_keys 
 
+mkdir -p /home/$username/.ssh
+
 sudo cp ~/.ssh/authorized_keys /home/$username/.ssh/authorized_keys
 
 echo "User '$username' setup authorized. Now login with your new user account!"
