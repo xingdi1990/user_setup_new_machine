@@ -2,6 +2,7 @@
 
 * Login your new server by the authorization file such as:
   ```
+  chmod 600 id_rsa_hyperstack
   ssh -i id_rsa_hyperstack ubuntu@xx.xxx.xxx.xxx
   ```
 * Get the script
