@@ -31,4 +31,10 @@ fi
 echo "Switching to the new user account to test sudo access..."
 su - "$username" -c "sudo whoami"
 
-echo "User setup complete. '$username' has sudo privileges."
+echo "'$username' has sudo privileges."
+
+# to login with new user, you need to copy the authorized_keys 
+
+sudo cp ~/.ssh/authorized_keys /home/$username/.ssh/authorized_keys
+
+echo "User '$username' setup authorized. Now login with your new user account!"
