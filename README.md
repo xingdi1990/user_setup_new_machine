@@ -18,3 +18,7 @@
   ```
   ssh -i id_rsa_hyperstack $username@xx.xxx.xxx.xxx 
   ```
+* check your current home should under directory /ephemeral
+  ```
+  pwd
+  ```
